@@ -10,3 +10,11 @@ body {
   background-color: var(--c-main);
   color: var(--c-sec);
 }
+
+a {
+  color: var(--c-sec);
+  &:hover {
+    color: grey;
+    text-decoration: none;
+  }
+}
